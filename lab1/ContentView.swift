@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    var viewModel: Lab1_emoji
+    
     var body: some View {
         HStack {
-            ForEach(0..<4) { index in
-                CardView(isFaceup: false)
+            ForEach(viewModel.cards) { card in
+                CardView(card: card)
             }
         }
             .padding()
@@ -22,15 +24,16 @@ struct ContentView: View {
 }
 
 struct CardView: View {
-    var isFaceup: Bool
+    var card: Lab1_memory<String>.Card
+    
     var body: some View {
         ZStack {
-            if isFaceup {
-            RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
-            RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
-            Text("😈")
+            if card.isFaceUp {
+                RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
+                RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
+                Text(card.content)
             } else {
-            RoundedRectangle(cornerRadius: 10.0).fill(Color.orange)
+                RoundedRectangle(cornerRadius: 10.0).fill(Color.orange)
             }
         }
     }
@@ -42,22 +45,8 @@ struct CardView: View {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewModel: Lab1_emoji())
     }
 }

@@ -11,6 +11,8 @@
 		FAA8FC7525E636E700EE0A97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC7425E636E700EE0A97 /* ContentView.swift */; };
 		FAA8FC7725E636E700EE0A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8FC7625E636E700EE0A97 /* Assets.xcassets */; };
 		FAA8FC7A25E636E700EE0A97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8FC7925E636E700EE0A97 /* Preview Assets.xcassets */; };
+		FAA8FC8325E7753200EE0A97 /* Lab1_memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC8225E7753200EE0A97 /* Lab1_memory.swift */; };
+		FAA8FC8625E7773100EE0A97 /* Lab1_emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC8525E7773100EE0A97 /* Lab1_emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FAA8FC7625E636E700EE0A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA8FC7925E636E700EE0A97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA8FC7B25E636E700EE0A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8FC8225E7753200EE0A97 /* Lab1_memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_memory.swift; sourceTree = "<group>"; };
+		FAA8FC8525E7773100EE0A97 /* Lab1_emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				FAA8FC7225E636E700EE0A97 /* lab1App.swift */,
 				FAA8FC7425E636E700EE0A97 /* ContentView.swift */,
+				FAA8FC8525E7773100EE0A97 /* Lab1_emoji.swift */,
+				FAA8FC8225E7753200EE0A97 /* Lab1_memory.swift */,
 				FAA8FC7625E636E700EE0A97 /* Assets.xcassets */,
 				FAA8FC7B25E636E700EE0A97 /* Info.plist */,
 				FAA8FC7825E636E700EE0A97 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA8FC8325E7753200EE0A97 /* Lab1_memory.swift in Sources */,
 				FAA8FC7525E636E700EE0A97 /* ContentView.swift in Sources */,
+				FAA8FC8625E7773100EE0A97 /* Lab1_emoji.swift in Sources */,
 				FAA8FC7325E636E700EE0A97 /* lab1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
