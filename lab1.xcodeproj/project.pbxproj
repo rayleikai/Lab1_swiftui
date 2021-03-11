@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FAA8FC7325E636E700EE0A97 /* lab1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC7225E636E700EE0A97 /* lab1App.swift */; };
-		FAA8FC7525E636E700EE0A97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC7425E636E700EE0A97 /* ContentView.swift */; };
+		FAA8FC7525E636E700EE0A97 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC7425E636E700EE0A97 /* EmojiMemoryGameView.swift */; };
 		FAA8FC7725E636E700EE0A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8FC7625E636E700EE0A97 /* Assets.xcassets */; };
 		FAA8FC7A25E636E700EE0A97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8FC7925E636E700EE0A97 /* Preview Assets.xcassets */; };
 		FAA8FC8325E7753200EE0A97 /* Lab1_memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC8225E7753200EE0A97 /* Lab1_memory.swift */; };
 		FAA8FC8625E7773100EE0A97 /* Lab1_emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8FC8525E7773100EE0A97 /* Lab1_emoji.swift */; };
+		FAD29C2325F87C5F007EF573 /* Lab1_GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD29C2225F87C5F007EF573 /* Lab1_GridLayout.swift */; };
+		FAEDB54025EE385200A4C1CB /* Lab1_Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB53F25EE385200A4C1CB /* Lab1_Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA8FC6F25E636E700EE0A97 /* lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA8FC7225E636E700EE0A97 /* lab1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1App.swift; sourceTree = "<group>"; };
-		FAA8FC7425E636E700EE0A97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA8FC7425E636E700EE0A97 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		FAA8FC7625E636E700EE0A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA8FC7925E636E700EE0A97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA8FC7B25E636E700EE0A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA8FC8225E7753200EE0A97 /* Lab1_memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_memory.swift; sourceTree = "<group>"; };
 		FAA8FC8525E7773100EE0A97 /* Lab1_emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_emoji.swift; sourceTree = "<group>"; };
+		FAD29C2225F87C5F007EF573 /* Lab1_GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lab1_GridLayout.swift; sourceTree = "<group>"; };
+		FAEDB53F25EE385200A4C1CB /* Lab1_Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				FAA8FC7225E636E700EE0A97 /* lab1App.swift */,
-				FAA8FC7425E636E700EE0A97 /* ContentView.swift */,
+				FAA8FC7425E636E700EE0A97 /* EmojiMemoryGameView.swift */,
+				FAEDB53F25EE385200A4C1CB /* Lab1_Grid.swift */,
+				FAD29C2225F87C5F007EF573 /* Lab1_GridLayout.swift */,
 				FAA8FC8525E7773100EE0A97 /* Lab1_emoji.swift */,
 				FAA8FC8225E7753200EE0A97 /* Lab1_memory.swift */,
 				FAA8FC7625E636E700EE0A97 /* Assets.xcassets */,
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA8FC8325E7753200EE0A97 /* Lab1_memory.swift in Sources */,
-				FAA8FC7525E636E700EE0A97 /* ContentView.swift in Sources */,
+				FAEDB54025EE385200A4C1CB /* Lab1_Grid.swift in Sources */,
+				FAA8FC7525E636E700EE0A97 /* EmojiMemoryGameView.swift in Sources */,
+				FAD29C2325F87C5F007EF573 /* Lab1_GridLayout.swift in Sources */,
 				FAA8FC8625E7773100EE0A97 /* Lab1_emoji.swift in Sources */,
 				FAA8FC7325E636E700EE0A97 /* lab1App.swift in Sources */,
 			);

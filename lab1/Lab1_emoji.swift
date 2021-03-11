@@ -8,14 +8,15 @@
 import SwiftUI
 
 class Lab1_emoji: ObservableObject {
-    private var model: Lab1_memory<String> = Lab1_emoji.createMemoryGame()
+    @Published private var model: Lab1_memory<String> = Lab1_emoji.createMemoryGame()
     
     static func createMemoryGame() -> Lab1_memory<String> {
-        let emoji: Array<String> = ["👦🏿","👦🏻"]
-       return  Lab1_memory<String>(numberOfParisOfCards: 2) { pairIndex in
+        let emoji = ["👦🏿","👦🏻","👦🏽"]
+        return  Lab1_memory<String>(numberOfParisOfCards: emoji.count) { pairIndex in
             return emoji[pairIndex]
        }
     }
+    
     
     //MARK: -Access to the Model
     
@@ -26,6 +27,7 @@ class Lab1_emoji: ObservableObject {
     //MARK: -Intent(s)
     
     func choose(card: Lab1_memory<String>.Card) {
+        objectWillChange.send()
         model.choose(card: card)
     }
 }
